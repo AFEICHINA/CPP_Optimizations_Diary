@@ -1,7 +1,5 @@
 # 通过异类关联容器进行优化
 
-
-
 ![](img/twitter_unordered.png)
 
 来吧，迈克尔，你小看我了；）
