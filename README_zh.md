@@ -1,4 +1,5 @@
 # 前言：关于我
+[en](README.md)
 
 我的名字是[Davide Faconti](https://twitter.com/facontidavide)，我从事的工作是最棒的之一：我在**机器人技术**领域工作。
 
@@ -17,7 +18,7 @@
 
 这些规则可以帮助您在同事面前显得像个牛逼哄哄/摇滚明星/十倍工程师。
 
-您是那种在循环之前随便放一个[std :: vector <>:: reserve]（docs / reserve.md），然后点头微笑，看着性能提高和团队成员的惊讶的人。
+您是那种在循环之前随便放一个[std::vector <>::reserve](docs/zh/reserve.md)，然后点头微笑，看着性能提高和团队成员的惊讶的人。
 
 <p align="center"><img src="docs/img/boom.gif" width="350"></p>
 
@@ -51,7 +52,7 @@
 
 您甚至可以在此处在线运行Google Benchmark：[quick-bench.com](http://quick-bench.com/G7B2w0xPUWgOVvuzI7unES6cU4w)。
 
-！[quick-bench]（docs / img / quick-bench.png）
+![quick-bench](docs/img/quick-bench.png)
 
 ## 规则2：学习好的设计模式，并默认使用它们
 
@@ -79,7 +80,7 @@
 
 ### “如果您再次按值传递......”
 
-- [默认使用const引用](docs/prefer_references.md)。
+- [默认使用const引用](docs/zh/prefer_references.md)。
 
 - 移动语义（待完成）。
 
@@ -87,39 +88,39 @@
 
 ### std::vector<>是您最好的朋友
 
-- [默认使用std::vector<>::reserve](docs/reserve.md)
+- [默认使用std::vector<>::reserve](docs/zh/reserve.md)
 
 - ["我在大学学了链表，我应该用它们吗？" 不要](docs/no_lists.md)。
 
-- [那件事不需要`std::map<>`](docs/dont_need_map.md)。
+- [那件事不需要`std::map<>`](docs/zh/dont_need_map.md)。
 
-- [小向量优化](docs/small_vectors.md)
+- [小向量优化](docs/zh/small_vectors.md)
 
 ### "这只是一个字符串，可能有多糟糕？"
 
-- [字符串（几乎）就是向量](docs/strings_are_vectors.md)
+- [字符串（几乎）就是向量](docs/zh/strings_are_vectors.md)
 
-- [何时不必担心：小字符串优化](docs/small_strings.md)。
+- [何时不必担心：小字符串优化](docs/zh/small_strings.md)。
 
-- [字符串连接：`operator+`的虚假安全感](docs/strings_concatenation.md)。
+- [字符串连接：`operator+`的虚假安全感](docs/zh/strings_concatenation.md)。
 
 - `std::string_view`：一见钟情（待完成）。
 
 ### 不要重复计算
 
-- [示例：正确的2D / 3D变换](docs/2d_transforms.md)。
+- [示例：正确的2D / 3D变换](docs/zh/2d_transforms.md)。
 
-- [迭代2D矩阵：更少的优雅，更高的性能](docs/2d_matrix_iteration.md)。
+- [迭代2D矩阵：更少的优雅，更高的性能](docs/zh/2d_matrix_iteration.md)。
 
 ### 神奇的数据结构及其发现位置。
 
-- [我尝试过`boost::container::flat_map`。你无法想象接下来会发生什么](docs/boost_flatmap.md)。
+- [我尝试过`boost::container::flat_map`。你无法想象接下来会发生什么](docs/zh/boost_flatmap.md)。
 
 ### 案例研究
 
-- [在PCL中过滤点云的更简单，更快速的方法。](docs/pcl_filter.md)
+- [在PCL中过滤点云的更简单，更快速的方法。](docs/zh/pcl_filter.md)
 
-- [快速回文：条件分支的代价](docs/palindrome.md)
+- [快速回文：条件分支的代价](docs/zh/palindrome.md)
 
 
 # 许可

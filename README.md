@@ -1,5 +1,7 @@
 # Preface: about me
 
+[zh](README_zh.md)
+
  My name is [Davide Faconti](https://twitter.com/facontidavide) and my job is one of the best in the world: I work in **robotics**.
   
 This blog/repository is maintained in **my spare time** and it is not  related to my work there. Therefore *opinions (and memes) are all mine and don't represent my employer in any way*.
@@ -18,7 +20,7 @@ If you are a seasoned C++ expert, you probably have your own set of rules alread
 
 These rules help you look like a bad-ass/rockstar/10X engineer to your colleagues.
 
-You are the kind of person that casually drops a [std::vector<>::reserve](docs/reserve.md) before a loop and
+You are the kind of person that casually drops a [std::vector<>::reserve](docs/en/reserve.md) before a loop and
 nods, smiling, looking at the performance improvement and the astonishment of your team member.
 
 <p align="center"><img src="docs/img/boom.gif" width="350"></p>
@@ -92,7 +94,7 @@ For a more comfortable reading experience, visit: https://cpp-optimizations.netl
 
 ### "If you pass that by value one more time..."
 
-- [Use Const reference by default](docs/prefer_references.md).
+- [Use Const reference by default](docs/en/prefer_references.md).
 
 - Move semantic (TODO).
 
@@ -102,40 +104,40 @@ For a more comfortable reading experience, visit: https://cpp-optimizations.netl
 ### std::vector<> is your best friend
 
 
-- [Use std::vector<>::reserve by default](docs/reserve.md)
+- [Use std::vector<>::reserve by default](docs/en/reserve.md)
 
-- ["I have learnt linked-lists at university, should I use them?" Nooope](docs/no_lists.md).
+- ["I have learnt linked-lists at university, should I use them?" Nooope](docs/en/no_lists.md).
 
-- [You don't need a `std::map<>` for that](docs/dont_need_map.md).
+- [You don't need a `std::map<>` for that](docs/en/dont_need_map.md).
 
-- [Small vector optimization](docs/small_vectors.md)
+- [Small vector optimization](docs/en/small_vectors.md)
 
 
 ### "It is just a string, how bad could that be?"
 
-- [Strings are (almost) vectors](docs/strings_are_vectors.md)
+- [Strings are (almost) vectors](docs/en/strings_are_vectors.md)
 
-- [When not to worry: small string optimization](docs/small_strings.md).
+- [When not to worry: small string optimization](docs/en/small_strings.md).
 
-- [String concatenation: the false sense of security of `operator+`](docs/strings_concatenation.md).
+- [String concatenation: the false sense of security of `operator+`](docs/en/strings_concatenation.md).
 
 - `std::string_view`: love at first sight (TODO).
 
 ### Don't compute things twice.
 
-- [Example: 2D/3D transforms the right way](docs/2d_transforms.md).
+- [Example: 2D/3D transforms the right way](docs/en/2d_transforms.md).
 
-- [Iterating over a 2D matrix: less elegant, more performant](docs/2d_matrix_iteration.md).
+- [Iterating over a 2D matrix: less elegant, more performant](docs/en/2d_matrix_iteration.md).
 
 ### Fantastic data structures and where to find them.
 
-- [I tried `boost::container::flat_map`. You won't imagine what happened next](docs/boost_flatmap.md).
+- [I tried `boost::container::flat_map`. You won't imagine what happened next](docs/en/boost_flatmap.md).
 
 ### Case studies
 
-- [Simpler and faster way to filter Point Clouds in PCL.](docs/pcl_filter.md)
+- [Simpler and faster way to filter Point Clouds in PCL.](docs/en/pcl_filter.md)
 
-- [Fast Palindrome: the cost of conditional branches](docs/palindrome.md)
+- [Fast Palindrome: the cost of conditional branches](docs/en/palindrome.md)
 
 
 # License
