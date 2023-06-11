@@ -1,6 +1,6 @@
 # Preface: about me
 
-[zh](README_zh.md)
+[zh 中文](README_zh.md)
 
  My name is [Davide Faconti](https://twitter.com/facontidavide) and my job is one of the best in the world: I work in **robotics**.
   
