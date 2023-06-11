@@ -90,7 +90,7 @@
 
 - [默认使用std::vector<>::reserve](docs/zh/reserve.md)
 
-- ["我在大学学了链表，我应该用它们吗？" 不要](docs/no_lists.md)。
+- ["我在大学学了链表，我应该用它们吗？" 不要](docs/zh/no_lists.md)。
 
 - [那件事不需要`std::map<>`](docs/zh/dont_need_map.md)。
 
