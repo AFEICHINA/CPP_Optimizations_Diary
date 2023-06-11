@@ -21,7 +21,7 @@ Matrix3D Rotate(Matrix3D mat, AxisAngle axis_angle);
 
 换句话说，每次调用其中一个函数时，您都会在您的范围内复制输入，并将 **副本** 传递给函数。
 
-![](img/why_copy.jpg)
+![](../img/why_copy.jpg)
 
 根据对象的大小或是否需要动态堆内存分配，副本可能是昂贵的，也可能不是昂贵的。
 
@@ -117,7 +117,7 @@ void PassVectorByRef(benchmark::State& state) {
 }
 ```
 
-![](img/const_reference.png)
+![](../img/const_reference.png)
 
 显然，引用传递完胜。
 
@@ -157,7 +157,7 @@ void MultiplyVector_Ref(benchmark::State& state) {
 }
 ``` 
 
-![](img/multiply_vector.png)
+![](../img/multiply_vector.png)
 
 总之，我们应该根据情况选择“值语义”和“引用语义”，以实现更好的性能和简化代码。
 

@@ -24,7 +24,7 @@ std:string big_string = first + " " + second + " " + third;
 
 注意到什么可疑的地方了吗？考虑堆分配...
 
-![](img/spider_senses.png)
+![](../img/spider_senses.png)
 
 让我这样重写它：
 
@@ -60,7 +60,7 @@ std:string big_string = (((first + " ") + second) + " ") + third;
 
 我知道你在想什么，你是100%正确的。
 
-![](img/feel_bad.jpg)
+![](../img/feel_bad.jpg)
 
 那是一段可怕的代码......比默认字符串连接方式**快了 2.5 倍**！
 
@@ -119,7 +119,7 @@ std:string big_string = StrCat(first, " ", second, " ", third );
 
 那么这到底有多快呢？
 
-![](img/string_concatenation.png)
+![](../img/string_concatenation.png)
 
 使用可变模板的版本比“丑陋”的手动连接略慢的原因是......
 

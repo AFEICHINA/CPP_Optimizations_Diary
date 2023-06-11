@@ -1,6 +1,6 @@
 # 如果您正在使用std::list<>，那么您就错了
 
-![](img/linked_list.png)
+![](../img/linked_list.png)
 
 我不会浪费时间重复一些已经由很多人做过的基准测试。
 
@@ -25,7 +25,7 @@
 
 这是我不久前向[RealSense](https://github.com/IntelRealSense)存储库发送的Pull Request的实际示例。
 
-![](img/realsense.png)
+![](../img/realsense.png)
 
 他们出于我无法理解的原因使用了`std::list<>`这种可恶的东西。
 

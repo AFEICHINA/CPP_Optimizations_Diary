@@ -36,7 +36,7 @@ matrix[row][col] = 42;
 
 然后你可以休息了。您可以将此代码带到[Mount Doom in Mordor](https://en.wikipedia.org/wiki/Mount_Doom)，并将其扔进volcano里。
 
-![](img/mordor.jpg)
+![](../img/mordor.jpg)
 
 首先，请使用[Eigen](http://eigen.tuxfamily.org)。它是一个优秀的库，具有出色的性能和美丽的API。
 

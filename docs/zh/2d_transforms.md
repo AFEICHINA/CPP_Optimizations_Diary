@@ -1,7 +1,7 @@
 # 不要计算它两次
 
 我将要展示的例子会让你们中的一些人做出这样的反应：
-![really](img/really.jpg)
+![really](../img/really.jpg)
 
 我这样说是因为这将是绝对显而易见的...在回顾中。
 
@@ -36,7 +36,7 @@ double y1 = x*Sin + y*Cos + ty;
 
 这就是激光扫描数据的情况，例如需要将其从极坐标转换为笛卡尔坐标。
 
-![laser_scan_matcher.png](img/laser_scan_matcher.png)
+![laser_scan_matcher.png](../img/laser_scan_matcher.png)
 
 一个自然的实现将会为每个点调用三角函数（每秒数千次）。
 

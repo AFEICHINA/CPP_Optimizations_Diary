@@ -48,7 +48,7 @@ const std::string& ToStringBetter(Color c)
 
 没有。但 `const&` 始终保证是最高效的选择，所以为什么要冒险呢？
 
-![](img/tostring.png)
+![](../img/tostring.png)
 
 
 ## 重用临时字符串
@@ -76,5 +76,5 @@ static void ModifyStringBetter(const std::string& input, std::string& output)
 
 然后，就如预期的那样……
 
-![](img/modifystring.png)
+![](../img/modifystring.png)
 

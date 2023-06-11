@@ -27,7 +27,7 @@
 
 要理解如何通过小的更改产生巨大差异，请考虑此驱动程序正在执行的操作。
 
-![](img/velodyne.png)
+![](../img/velodyne.png)
 
 Velodyne是一种传感器，可以每秒测量数十万个点（障碍物距离），它是大多数自动驾驶汽车中最重要的传感器。
 
@@ -74,7 +74,7 @@ Velodyne驱动程序将极坐标中的测量值转换为三维笛卡尔坐标（
  std::vector<LaserCorrection> laser_corrections;
 ```
 
-![](img/quote.png)
+![](../img/quote.png)
 
 总结一下，没有必要使用关联容器，因为向量本身的位置（向量中的索引）已经完美地工作。
 

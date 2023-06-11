@@ -10,7 +10,7 @@
 
 说过了这些，让我们进入我的下一个牢骚。
 
-![](img/davide_yells_at_PCL.jpg)
+![](../img/davide_yells_at_PCL.jpg)
 
 
 ## 使用 pcl::fromROSMsg()

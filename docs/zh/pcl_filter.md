@@ -2,7 +2,7 @@
 
 [Point Cloud Library (PCL)](https://pointclouds.org/) 是一个广泛应用于机器人、自动驾驶和 3D 感知等领域的流行库，对这些领域做出了**巨大贡献**。
 
-![](img/pcl.jpg)
+![](../img/pcl.jpg)
 
 它是一个庞然大物，有着超过 [12K 次提交和 5K 个 Github 星标](https://github.com/PointCloudLibrary/pcl)。
 
@@ -46,7 +46,7 @@ condition_removal.filter (*cloud_filtered);
 
 好好想想吧：
 
-![](img/think_about_it.jpg)
+![](../img/think_about_it.jpg)
 
 认真想一下，如果你有一个如下所示的点的 **向量**：
 
@@ -152,7 +152,7 @@ auto range_cond = std::make_shared<GenericCondition<PointXYZ>>(
 
 其余的代码没有改变！！！
 
-![](img/beautiful.jpg)
+![](../img/beautiful.jpg)
 
 ## 让我们谈谈速度
 

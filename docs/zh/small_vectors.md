@@ -98,7 +98,7 @@ private:
 
 **StaticVector** 看起来像是一个 `std::vector`，但实际上它是……
 
-![](img/inconceivably.jpg)
+![](../img/inconceivably.jpg)
 
 有时候，向量式容器最多只会有 **N** 个元素，但我们并不“绝对确定”。
 

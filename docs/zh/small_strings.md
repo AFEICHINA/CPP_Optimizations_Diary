@@ -8,7 +8,7 @@
 
 这在性能方面有巨大的影响！
 
-![](img/relax_sso.jpg)
+![](../img/relax_sso.jpg)
 
 对于好奇的人，以下是一些关于实现的详细信息：
 
@@ -60,7 +60,7 @@ void LongStringCopy(benchmark::State& state) {
 
 正如您可能注意到的那样，如果字符串很短但却需要分配内存，我的聪明尝试“我不会每次都创建一个新字符串”将非常失败，但是如果字符串需要分配内存，则会产生巨大的影响。
 
-![](img/sso_in_action.png)
+![](../img/sso_in_action.png)
 
 
 

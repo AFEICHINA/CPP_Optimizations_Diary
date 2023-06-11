@@ -60,7 +60,7 @@ static void ObsessiveRecycling(benchmark::State& state) {
 }
 ```
 
-![](img/vector_reserve.png)
+![](../img/vector_reserve.png)
 
 看看差异！这些只有100个元素。
 
@@ -74,7 +74,7 @@ static void ObsessiveRecycling(benchmark::State& state) {
 
 这是我的一个应用程序随时间使用的内存量（图像使用 **Heaptrack** 获取）：
 
-![](img/growing_vector.png)
+![](../img/growing_vector.png)
 
 看那个！某些东西每隔几秒钟就会将它使用的内存量增加两倍...
 

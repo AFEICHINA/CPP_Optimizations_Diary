@@ -1,6 +1,6 @@
 # 通过异类关联容器进行优化
 
-![](img/twitter_unordered.png)
+![](../img/twitter_unordered.png)
 
 来吧，迈克尔，你小看我了；）
 
@@ -14,7 +14,7 @@
 
 不用说，我使用了我的好朋友**Hotspost**来查看CPU时间花费在哪里：
 
-![](img/motor_profile1.png)
+![](../img/motor_profile1.png)
 
 看起来很乱，不是吗？请理解。
 
@@ -22,7 +22,7 @@
 
 引起我的注意的是，在方法**std::unordered_map<>::operator[]**中有30%的CPU浪费。
 
-![](img/motor_profile2.png)
+![](../img/motor_profile2.png)
 
 右侧有一个大块，然后左侧的代码中有许多多次调用。
 
@@ -60,7 +60,7 @@ Value getEntry(const Address& address)
 }
 ```
 
-![](img/two_lookups.jpg)
+![](../img/two_lookups.jpg)
 
 正确的做法是：
 

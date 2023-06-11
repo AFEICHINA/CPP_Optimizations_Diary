@@ -10,7 +10,7 @@
 
 您是那种在循环之前轻松投射出[std::vector<>::reserve](reserve.md)，点头微笑，看着性能提高和团队成员的惊讶的人。
 
-![](img/boom.gif)
+![](../img/boom.gif)
 
 希望本仓库中的示例将帮助您达到大师的地位，并作为副作用节省不必要的CPU周期，
 从而拯救地球免受全球变暖的影响。
@@ -35,7 +35,7 @@
 
 我的Linux中的“goto”工具是[Hotspot](https://github.com/KDAB/hotspot)和[Heaptrack](https://github.com/KDE/heaptrack)。我了解Windows也有类似的工具。
 
-![](img/hotspot_heaptrack.jpg)
+![](../img/hotspot_heaptrack.jpg)
 
 在基准测试战争中，如果您是士兵，这就是您的步枪和手榴弹。
 
@@ -43,7 +43,7 @@
 
 您甚至可以在此处在线运行Google Benchmark：[quick-bench.com](http://quick-bench.com/G7B2w0xPUWgOVvuzI7unES6cU4w)。
 
-![quick-bench](img/quick-bench.png)
+![quick-bench](../img/quick-bench.png)
 
 ## 规则2：学习好的设计模式，使用它们作为默认值
 
