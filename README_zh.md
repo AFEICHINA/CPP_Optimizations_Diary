@@ -1,7 +1,7 @@
 # 前言：关于我
 [en](README.md)
 
-我的名字是[Davide Faconti](https://twitter.com/facontidavide)，我从事的工作是最棒的之一：我在**机器人技术**领域工作。
+我的名字是[Davide Faconti](https://twitter.com/facontidavide)，我从事的工作是最棒的工作之一：我在**机器人技术**领域工作。
 
 这个博客/存储库是在 **我的空余时间** 中维护的，与我的工作无关。因此，*观点（和迷因）都是我的，不代表我的雇主*。
 
